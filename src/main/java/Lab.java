@@ -17,7 +17,13 @@ public class Lab {
      *
      * @return any object.
      */
+
+     String firstName;
+     
     public Object instantiateANewObject(){
-        return null;
+
+        Lab myFirstName = new Lab();
+        myFirstName.firstName = "Steven";
+        return myFirstName;
     }
 }
